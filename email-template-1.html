@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WestMontFin Email</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
             background-color: #f0f0f0;
@@ -50,15 +49,20 @@
         }
         .social-icon {
             display: inline-block;
-            width: 32px;
-            height: 32px;
+            width: 35px;
+            height: 35px;
             background-color: #6a1b9a;
             border-radius: 50%;
-            color: white;
-            font-size: 16px;
-            line-height: 32px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 35px; /* Match the height of the container */
             margin: 0 5px;
-            text-decoration: none;
+        }
+        .social-icon img {
+            filter: brightness(0) invert(1); /* Make icons white */
+            width: 15px;
+            height: 15px;
+            vertical-align: middle;
         }
         .contact-info {
             margin-bottom: 20px;
@@ -69,7 +73,9 @@
             display: inline-block;
         }
         .contact-icon {
-            color: black;
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
             margin-right: 5px;
         }
         .divider {
@@ -115,16 +121,16 @@
             <h3 class="stay-connected">STAY CONNECTED</h3>
             
             <div class="social-icons">
-                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-icon"><img src="https://westmont-group.com/wp-content/uploads/2024/10/facebook-176-svgrepo-com.svg" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="https://westmont-group.com/wp-content/uploads/2024/10/instagram-svgrepo-com.svg" alt="Instagram"></a>
+                <a href="#" class="social-icon"><img src="https://westmont-group.com/wp-content/uploads/2024/10/linkedin-svgrepo-com.svg" alt="LinkedIn"></a>
+                <a href="#" class="social-icon"><img src="https://westmont-group.com/wp-content/uploads/2024/10/youtube-svgrepo-com.svg" alt="YouTube"></a>
             </div>
 
             <div class="contact-info">
-                <span><i class="fas fa-phone contact-icon"></i>0800 945858943</span>
-                <span><i class="fas fa-envelope contact-icon"></i>hello@westmont-group.com</span>
-                <span><i class="fas fa-globe contact-icon"></i>www.westmont-group.com</span>
+                <span><img src="https://westmont-group.com/wp-content/uploads/2024/10/phone-svgrepo-com.svg" alt="Phone" class="contact-icon">0800 945858943</span>
+                <span><img src="https://westmont-group.com/wp-content/uploads/2024/10/mail-svgrepo-com.svg" alt="Email" class="contact-icon">hello@westmont-group.com</span>
+                <span><img src="https://westmont-group.com/wp-content/uploads/2024/10/website-click-svgrepo-com.svg" alt="Website" class="contact-icon">www.westmont-group.com</span>
             </div>
 
             <hr class="divider">
